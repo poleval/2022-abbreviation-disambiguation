@@ -1,7 +1,8 @@
 # Abbreviation disambiguation
 
-## Introduction
 Abbreviations are often overlooked in many NLP pipelines. However, they are still an important point to tackle, especially in such applications as machine translation, named entity recognition, or text-to-speech systems.
+
+## Introduction
 
 There are at least two practical challenges in processing abbreviations. The first is the ability to find the full, expanded dictionary form of an abbreviation. In many cases, this may be done by a simple dictionary lookup, but:
 - the use of abbreviations is often unconventional and there is no complete list of all possible abbreviation uses,
