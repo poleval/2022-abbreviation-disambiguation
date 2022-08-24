@@ -1,1 +1,1 @@
---metric Accuracy --precision 4 -%  --in-header in-header.tsv --out-header out-header.tsv
+--metric CustomMetric1:cN<WeightedAccuracy> --precision 4 -%  --in-header in-header.tsv --out-header out-header.tsv
